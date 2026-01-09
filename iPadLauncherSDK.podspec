@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
                    DESC
   s.homepage     = "https://github.com/Richzone/iPadLauncherSDK"
   s.license      = { :type => "MIT", :text => "Copyright (c) 2026 Your Name" }
-  s.author       = { "Your Name" => “rich.zonehub@gmail.com" }
+  s.author       = { "Richa Jha" => "rich.zonehub@gmail.com" }
   s.source       = { :http => "https://github.com/Richzone/iPadLauncherSDK/releases/download/9.0.0.18/iPadLauncherSDK.zip" }
   s.platform     = :ios, "15.0"
   s.swift_version = "5.0"
@@ -17,15 +17,19 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = [
     "BarCodeKit.framework",
     "CDMarkdownKit.framework",
-    "CropViewController.framework”,
-    "DeviceKit.framework”,
-    "LogicalInkSDK.”framework”,
-    "ObjcExceptionBridging.”framework”,
-    "RappleProgressHUD.framework”,
-    "Reachability.framework”,
-    "XCGLogger.framework”,
+    "CropViewController.framework",
+    "DeviceKit.framework",
+    "LogicalInkSDK.framework",
+    "ObjcExceptionBridging.framework",
+    "RappleProgressHUD.framework",
+    "Reachability.framework",
+    "XCGLogger.framework",
 
   ]
-
-  s.resources = ['LogicalInkSDK.bundle’, 'TOCropViewControllerBundle.bundle’, 'DeviceKit.bundle’, 'ObjcExceptionBridging.bundle’, ‘ReachabilitySwift.bundle’, ‘XCGLogger.bundle’]
+  s.resources = ['LogicalInkSDK.bundle', 
+                 'TOCropViewControllerBundle.bundle', 
+		 'DeviceKit.bundle', 
+		 'ObjcExceptionBridging.bundle', 
+		 'ReachabilitySwift.bundle', 
+		 'XCGLogger.bundle']
 end

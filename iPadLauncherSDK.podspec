@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "iPadLauncherSDK"
-  s.version      = "1.0.0"
+  s.version      = "9.0.0.18"
   s.summary      = "iPadLauncherSDK is used to view forms from eCapture."
   s.description  = <<-DESC
                    A longer description of iPadLauncherSDK.

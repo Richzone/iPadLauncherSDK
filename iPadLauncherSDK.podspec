@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
     "GoogleAppMeasurementIdentitySupport.framework",
 
   ]
-  s.resources = ['LogicalInkSDK.bundle', 
+  s.resources = ['LogicalInkSDKBundle.bundle', 
                  'TOCropViewControllerBundle.bundle', 
 		 'DeviceKit.bundle', 
 		 'ObjcExceptionBridging.bundle', 

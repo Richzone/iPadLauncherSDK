@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :text => "Copyright (c) 2026 Your Name" }
   s.author       = { "Richa Jha" => "rich.zonehub@gmail.com" }
   s.source       = { :http => "https://github.com/Richzone/iPadLauncherSDK/releases/download/9.0.0.18/iPadLauncherSDK.zip" }
-  s.platform     = :ios, "15.0"
+  s.platform     = :ios, "17.0"
   s.swift_version = "5.0"
 
   # Frameworks 

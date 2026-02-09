@@ -24,9 +24,6 @@ Pod::Spec.new do |s|
     "RappleProgressHUD.framework",
     "Reachability.framework",
     "XCGLogger.framework",
-    "FirebaseAnalytics.framework",
-    "GoogleAppMeasurement.framework",
-    "GoogleAppMeasurementIdentitySupport.framework",
 
   ]
   s.resources = ['LogicalInkSDKBundle.bundle', 

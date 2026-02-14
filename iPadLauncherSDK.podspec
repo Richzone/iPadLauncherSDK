@@ -27,6 +27,11 @@ Pod::Spec.new do |s|
 
   ]
 
-  s.preserve_paths = ['*.bundle']
+   s.resources = ['LogicalInkSDKBundle.bundle', 
+                 'TOCropViewControllerBundle.bundle', 
+		 'DeviceKit.bundle', 
+		 'ObjcExceptionBridging.bundle', 
+		 'ReachabilitySwift.bundle', 
+		 'XCGLogger.bundle']
  
 end

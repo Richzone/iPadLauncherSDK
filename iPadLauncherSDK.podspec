@@ -26,10 +26,7 @@ Pod::Spec.new do |s|
     "XCGLogger.framework",
 
   ]
-  s.resources = ['LogicalInkSDKBundle.bundle', 
-                 'TOCropViewControllerBundle.bundle', 
-		 'DeviceKit.bundle', 
-		 'ObjcExceptionBridging.bundle', 
-		 'ReachabilitySwift.bundle', 
-		 'XCGLogger.bundle']
+
+  s.preserve_paths = ['*.bundle']
+ 
 end

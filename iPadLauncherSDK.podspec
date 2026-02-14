@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
 
   ]
 
-   s.resources = ['LogicalInkSDKBundle.bundle', 
+   s.resources_bundles = ['LogicalInkSDKBundle.bundle', 
                  'TOCropViewControllerBundle.bundle', 
 		 'DeviceKit.bundle', 
 		 'ObjcExceptionBridging.bundle', 
